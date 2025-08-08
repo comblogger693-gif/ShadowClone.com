@@ -4,13 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Download Episodes</title>
-
-  <!-- ✅ Monetag SDK -->
-  <script src='//libtl.com/sdk.js' data-zone='9686886' data-sdk='show_9686886'></script>
-
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
   <style>
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
     body {
       font-family: 'Roboto', sans-serif;
       background: linear-gradient(to right, #1e3c72, #2a5298);
@@ -25,7 +23,9 @@
       justify-content: space-between;
       align-items: center;
     }
-    nav h1 { font-size: 1.5rem; }
+    nav h1 {
+      font-size: 1.5rem;
+    }
     nav a {
       color: #fff;
       text-decoration: none;
@@ -34,7 +34,9 @@
       border-radius: 6px;
       transition: 0.3s ease;
     }
-    nav a:hover { background: #f50057; }
+    nav a:hover {
+      background: #f50057;
+    }
     .container {
       padding: 2rem;
       display: grid;
@@ -52,7 +54,10 @@
       transform: scale(1.03);
       background: rgba(255, 255, 255, 0.15);
     }
-    .card h2 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .card h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
     .card .actions {
       display: flex;
       justify-content: space-between;
@@ -69,10 +74,18 @@
       cursor: pointer;
       transition: background 0.3s ease;
     }
-    .btn.download { background: #4caf50; }
-    .btn.download:hover { background: #43a047; }
-    .btn.watch { background: #2196f3; }
-    .btn.watch:hover { background: #1e88e5; }
+    .btn.download {
+      background: #4caf50;
+    }
+    .btn.download:hover {
+      background: #43a047;
+    }
+    .btn.watch {
+      background: #2196f3;
+    }
+    .btn.watch:hover {
+      background: #1e88e5;
+    }
     .views {
       margin-top: 8px;
       font-size: 0.9rem;
@@ -85,7 +98,9 @@
       100% { opacity: 1; }
     }
     @media (max-width: 600px) {
-      .card h2 { font-size: 1rem; }
+      .card h2 {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
@@ -136,22 +151,15 @@
     });
 
     function trackDownload(index, url) {
-      // 🔁 Monetag Rewarded Ad
-      show_9686886().then(() => {
-        // ✅ Rewarded ad completed – proceed with download
-        const key = `views_${index}`;
-        let count = localStorage.getItem(key) || 0;
-        count++;
-        localStorage.setItem(key, count);
+      const key = `views_${index}`;
+      let count = localStorage.getItem(key) || 0;
+      count++;
+      localStorage.setItem(key, count);
 
-        const viewDiv = document.querySelectorAll(".views")[index];
-        viewDiv.textContent = `👁️ ${count} downloads`;
+      const viewDiv = document.querySelectorAll(".views")[index];
+      viewDiv.textContent = `👁️ ${count} downloads`;
 
-        window.open(url, "_blank");
-      }).catch(err => {
-        console.error("Ad error:", err);
-        alert("Ad failed to load. Please try again.");
-      });
+      window.open(url, "_blank");
     }
   </script>
 </body>
