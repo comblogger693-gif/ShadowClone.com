@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Episode 1",
+    "description": "This is Episode 1.",
+    "thumbnail": "assets/1.jpg",
+    "watch": "https://drive.google.com/file/d/1YV4fDtE1OVqr9-M5h7U7q3LgeGWjPUY3/view",
+    "download": "https://drive.google.com/uc?export=download&id=1YV4fDtE1OVqr9-M5h7U7q3LgeGWjPUY3"
+  },
+  {
+    "title": "Episode 2",
+    "description": "This is Episode 2.",
+    "thumbnail": "assets/2.jpg",
+    "watch": "https://drive.google.com/file/d/1VHMkdRd_1_QbrOcDUmB6ZpLEXZQFXW4G/view",
+    "download": "https://drive.google.com/uc?export=download&id=1VHMkdRd_1_QbrOcDUmB6ZpLEXZQFXW4G"
+  },
+  {
+    "title": "Episode 3",
+    "description": "This is Episode 3.",
+    "thumbnail": "assets/3.jpg",
+    "watch": "https://drive.google.com/file/d/1wbM1Xas4vDHY2Le77SLhO67lewgztklu/view",
+    "download": "https://drive.google.com/uc?export=download&id=1wbM1Xas4vDHY2Le77SLhO67lewgztklu"
+  },
+  {
+    "title": "Episode 4",
+    "description": "This is Episode 4.",
+    "thumbnail": "assets/4.jpg",
+    "watch": "https://drive.google.com/file/d/19G0t5dd_xj793KLAr33PkDtFBImBeSeH/view",
+    "download": "https://drive.google.com/uc?export=download&id=19G0t5dd_xj793KLAr33PkDtFBImBeSeH"
+  },
+  {
+    "title": "Episode 5",
+    "description": "This is Episode 5.",
+    "thumbnail": "assets/5.jpg",
+    "watch": "https://drive.google.com/file/d/1NCtdDI_Ne-eTWt3ZQPWmH4ylNn550ekp/view",
+    "download": "https://drive.google.com/uc?export=download&id=1NCtdDI_Ne-eTWt3ZQPWmH4ylNn550ekp"
+  },
+  {
+    "title": "Episode 6",
+    "description": "This is Episode 6.",
+    "thumbnail": "assets/6.jpg",
+    "watch": "https://drive.google.com/file/d/1tMr8lADa-vvaIEQuSFOAQHHrMhPGOR1n/view",
+    "download": "https://drive.google.com/uc?export=download&id=1tMr8lADa-vvaIEQuSFOAQHHrMhPGOR1n"
+  },
+  {
+    "title": "Episode 7",
+    "description": "This is Episode 7.",
+    "thumbnail": "assets/7.jpg",
+    "watch": "https://drive.google.com/file/d/1CVifHgnf5b5hstVeImMjLyGAh6B_rOR_/view",
+    "download": "https://drive.google.com/uc?export=download&id=1CVifHgnf5b5hstVeImMjLyGAh6B_rOR_"
+  },
+  {
+    "title": "Episode 8",
+    "description": "This is Episode 8.",
+    "thumbnail": "assets/8.jpg",
+    "watch": "https://drive.google.com/file/d/1OtkkLSmPT_hXW8jFXint-z-gP4pWepyM/view",
+    "download": "https://drive.google.com/uc?export=download&id=1OtkkLSmPT_hXW8jFXint-z-gP4pWepyM"
+  },
+  {
+    "title": "Episode 9",
+    "description": "This is Episode 9.",
+    "thumbnail": "assets/9.jpg",
+    "watch": "https://drive.google.com/file/d/1PJGWZn_KLN8_k6ztDIjBHYMJelx813Pk/view",
+    "download": "https://drive.google.com/uc?export=download&id=1PJGWZn_KLN8_k6ztDIjBHYMJelx813Pk"
+  },
+  {
+    "title": "Episode 10",
+    "description": "This is Episode 10.",
+    "thumbnail": "assets/10.jpg",
+    "watch": "https://drive.google.com/file/d/1X9PX636s5HPy077JRd9S0VE9RXLWkeJN/view",
+    "download": "https://drive.google.com/uc?export=download&id=1X9PX636s5HPy077JRd9S0VE9RXLWkeJN"
+  }
+]
