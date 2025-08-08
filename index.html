@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>PKYEK – Season 1</title>
+
+  <!-- ✅ Monetag SDK Script -->
+  <script src='//libtl.com/sdk.js' data-zone='9686886' data-sdk='show_9686886'></script>
+
   <link rel="stylesheet" href="style.css" />
   <script src="episodes.js" defer></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -32,5 +36,19 @@
       <button id="nextPage">Next ⟩</button>
     </div>
   </div>
+
+  <!-- ✅ Auto-launch In-App Interstitial Ads -->
+  <script>
+    show_9686886({
+      type: 'inApp',
+      inAppSettings: {
+        frequency: 2,
+        capping: 0.1,
+        interval: 30,
+        timeout: 5,
+        everyPage: false
+      }
+    });
+  </script>
 </body>
 </html>
